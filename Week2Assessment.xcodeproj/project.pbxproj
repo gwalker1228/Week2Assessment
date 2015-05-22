@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		FAE7FCE81B0E845200E7D991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7FCE71B0E845200E7D991 /* main.m */; };
 		FAE7FCEB1B0E845200E7D991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7FCEA1B0E845200E7D991 /* AppDelegate.m */; };
-		FAE7FCEE1B0E845200E7D991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7FCED1B0E845200E7D991 /* ViewController.m */; };
+		FAE7FCEE1B0E845200E7D991 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7FCED1B0E845200E7D991 /* RootViewController.m */; };
 		FAE7FCF11B0E845200E7D991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE7FCEF1B0E845200E7D991 /* Main.storyboard */; };
 		FAE7FCF31B0E845200E7D991 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE7FCF21B0E845200E7D991 /* Images.xcassets */; };
 		FAE7FCF61B0E845200E7D991 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE7FCF41B0E845200E7D991 /* LaunchScreen.xib */; };
 		FAE7FD021B0E845200E7D991 /* Week2AssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7FD011B0E845200E7D991 /* Week2AssessmentTests.m */; };
+		FAE7FD0D1B0E84D000E7D991 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7FD0C1B0E84D000E7D991 /* City.m */; };
+		FAE7FD101B0E8CF000E7D991 /* CityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7FD0F1B0E8CF000E7D991 /* CityDetailViewController.m */; };
+		FAE7FD131B0E96A900E7D991 /* WikipediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7FD121B0E96A900E7D991 /* WikipediaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		FAE7FCE71B0E845200E7D991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAE7FCE91B0E845200E7D991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAE7FCEA1B0E845200E7D991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAE7FCEC1B0E845200E7D991 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAE7FCED1B0E845200E7D991 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAE7FCEC1B0E845200E7D991 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FAE7FCED1B0E845200E7D991 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FAE7FCF01B0E845200E7D991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE7FCF21B0E845200E7D991 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAE7FCF51B0E845200E7D991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FAE7FCFB1B0E845200E7D991 /* Week2AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE7FD001B0E845200E7D991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE7FD011B0E845200E7D991 /* Week2AssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week2AssessmentTests.m; sourceTree = "<group>"; };
+		FAE7FD0B1B0E84D000E7D991 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		FAE7FD0C1B0E84D000E7D991 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		FAE7FD0E1B0E8CF000E7D991 /* CityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDetailViewController.h; sourceTree = "<group>"; };
+		FAE7FD0F1B0E8CF000E7D991 /* CityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDetailViewController.m; sourceTree = "<group>"; };
+		FAE7FD111B0E96A900E7D991 /* WikipediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikipediaViewController.h; sourceTree = "<group>"; };
+		FAE7FD121B0E96A900E7D991 /* WikipediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikipediaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,14 @@
 			children = (
 				FAE7FCE91B0E845200E7D991 /* AppDelegate.h */,
 				FAE7FCEA1B0E845200E7D991 /* AppDelegate.m */,
-				FAE7FCEC1B0E845200E7D991 /* ViewController.h */,
-				FAE7FCED1B0E845200E7D991 /* ViewController.m */,
+				FAE7FCEC1B0E845200E7D991 /* RootViewController.h */,
+				FAE7FCED1B0E845200E7D991 /* RootViewController.m */,
+				FAE7FD0E1B0E8CF000E7D991 /* CityDetailViewController.h */,
+				FAE7FD0F1B0E8CF000E7D991 /* CityDetailViewController.m */,
+				FAE7FD111B0E96A900E7D991 /* WikipediaViewController.h */,
+				FAE7FD121B0E96A900E7D991 /* WikipediaViewController.m */,
+				FAE7FD0B1B0E84D000E7D991 /* City.h */,
+				FAE7FD0C1B0E84D000E7D991 /* City.m */,
 				FAE7FCEF1B0E845200E7D991 /* Main.storyboard */,
 				FAE7FCF21B0E845200E7D991 /* Images.xcassets */,
 				FAE7FCF41B0E845200E7D991 /* LaunchScreen.xib */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE7FCEE1B0E845200E7D991 /* ViewController.m in Sources */,
+				FAE7FCEE1B0E845200E7D991 /* RootViewController.m in Sources */,
 				FAE7FCEB1B0E845200E7D991 /* AppDelegate.m in Sources */,
+				FAE7FD0D1B0E84D000E7D991 /* City.m in Sources */,
+				FAE7FD101B0E8CF000E7D991 /* CityDetailViewController.m in Sources */,
+				FAE7FD131B0E96A900E7D991 /* WikipediaViewController.m in Sources */,
 				FAE7FCE81B0E845200E7D991 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
