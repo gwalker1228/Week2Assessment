@@ -7,7 +7,6 @@
 //
 
 #import "CityDetailViewController.h"
-#import <QuartzCore/QuartzCore.h>
 #import "WikipediaViewController.h"
 
 @interface CityDetailViewController () <UITextFieldDelegate>
@@ -89,7 +88,6 @@
         }
     }
 
-    //[self resignFirstResponder];
     [self.delegate cityDetailViewController:self didEditCity:self.city];
 
 
